@@ -801,3 +801,40 @@ margin: 60px;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   margin: 10px;
  }
+
+ /*------privacy---*/
+
+ .piv{
+  height: 100vh;
+  width: 140vh;
+  margin: 60px;
+ }
+.piv h1{
+  margin: 20px;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .piv p{
+  letter-spacing: 2px;
+  margin: 10px;
+  font-size: 30px;
+  font-family:'Teko', sans-serif ;
+ }
+ .piv h3{
+  margin: 20px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+ @media screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (mix-width: 1200px) {
+  
+  p {
+    font-size: 18px;
+  }
+}
