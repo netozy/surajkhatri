@@ -95,6 +95,11 @@ ul li a:hover{
     color: wheat;
     letter-spacing: 10px;
 }
+a .active,a :hover{
+  transition: .5s;
+}
+
+
 
 
 
@@ -708,6 +713,18 @@ margin: 60px;
   margin: 20px;
  }
 
+ @media  screen  and (mix-width: 800px) {
+  p{
+    font-size: 30px;
+   }
+
+   .tqm{
+    height: 100vh;
+    width: 190vh;
+    margin: 60px;
+   }
+ }
+
  /*-----globalization----*/
 
  .glo{
@@ -767,6 +784,7 @@ margin: 60px;
   margin: 10px;
  }
 
+
  /*-------management*/
 
  .manage{
@@ -802,6 +820,34 @@ margin: 60px;
   margin: 10px;
  }
 
+ @media only screen and (max-width: 400px) {
+
+  .manage p { 
+    font-size: 18px;
+    margin: 10px;
+    letter-spacing: 1.2px;
+ }
+ .manage h1{
+  font-size: 30px;
+  margin: 60px;
+ }
+ .manage li{
+  font-size: 20px;
+margin: 10px;
+ }
+ .manage h3{
+  font-size: 25px;
+  margin: 10px;
+ }
+ .manage h4{
+  font-size: 30px;
+  margin: 10px;
+ }
+ 
+}
+
+
+
  /*------privacy---*/
 
  .piv{
@@ -824,17 +870,12 @@ margin: 60px;
   margin: 20px;
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
- }
+ } 
 
- @media screen and (max-width: 600px) {
-  p {
-    font-size: 14px;
-  }
-}
+
 
 @media (mix-width: 1200px) {
-  
-  p {
+ html {
     font-size: 18px;
   }
 }
