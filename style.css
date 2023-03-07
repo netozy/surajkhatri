@@ -99,6 +99,35 @@ a .active,a :hover{
   transition: .5s;
 }
 
+@media only screen and (max-width: 480px) {
+  .main{
+    display: block;
+    cursor: pointer;
+  }
+  .nav-bar{
+    width: 30px;
+    height: 3px;
+    margin: 6px 0;
+    background: black;
+}
+.menu{
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  background: black;
+  transition: 0.2s;
+}
+.menu a{
+  display: block;
+  width: fit-content;
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+}
+
 
 
 
@@ -783,6 +812,21 @@ margin: 60px;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   margin: 10px;
  }
+ @media only screen and (max-width: 480px) {
+  .goal h1{
+    font-size: 10rem;
+    margin: 20px;
+   }
+   .goal p{
+    font-size: 60px;
+    margin: 10px;
+    letter-spacing: 2px;
+   }
+   .goal h3{
+    font-size: 100px;
+    margin: 10px;
+   }
+ }
 
 
  /*-------management*/
@@ -820,27 +864,28 @@ margin: 60px;
   margin: 10px;
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 480px) {
+
 
   .manage p { 
-    font-size: 18px;
+    font-size: 60px;
     margin: 10px;
     letter-spacing: 1.2px;
  }
  .manage h1{
-  font-size: 30px;
-  margin: 60px;
+  font-size: 10rem;
+  margin: 20px;
  }
  .manage li{
-  font-size: 20px;
+  font-size: 100px;
 margin: 10px;
  }
  .manage h3{
-  font-size: 25px;
+  font-size: 90px;
   margin: 10px;
  }
  .manage h4{
-  font-size: 30px;
+  font-size: 100px;
   margin: 10px;
  }
  
