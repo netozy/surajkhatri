@@ -401,6 +401,19 @@ transform: translateY(150%);
     font-family: 'Times New Roman';
     margin-top: 50px; 
  }
+ @media  screen  and (max-width: 480px) {
+  .pmain{
+    background-color:white;
+ }
+
+  .mon ul li a{
+    font-size: 60px;
+    color: black;
+  }
+
+
+ }
+ 
 
  /*--motivation---*/
 
@@ -742,7 +755,7 @@ margin: 60px;
   margin: 20px;
  }
 
- @media  screen  and (mix-width: 800px) {
+ @media  screen  and (max-width: 800px) {
   p{
     font-size: 30px;
    }
@@ -831,6 +844,10 @@ margin: 60px;
 
  /*-------management*/
 
+ .sun a{
+  color: black;
+ }
+
  .manage{
   height: 100vh;
   margin: 60px;
@@ -888,6 +905,11 @@ margin: 10px;
   font-size: 100px;
   margin: 10px;
  }
+
+ .sun a{
+  font-size: 30px;
+  color: black;
+ }
  
 }
 
@@ -917,10 +939,12 @@ margin: 10px;
   font-family: 'Times New Roman', Times, serif;
  } 
 
-
-
-@media (mix-width: 1200px) {
- html {
-    font-size: 18px;
-  }
+ @media only screen and (max-width: 480px) {
+  
+.piv h1{
+  font-size: 30px;
 }
+.piv p{
+  font-size: 30px;
+}
+ }
