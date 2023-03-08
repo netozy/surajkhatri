@@ -751,6 +751,53 @@ margin: 60px;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
  }
 
+ @media  screen  and (max-width: 480px) {
+  .mena a{
+    color: white;
+    display: block;
+  }
+  .mena .c{
+    color: black;
+    font-size: 60px;
+  }
+  .control p{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-align: start;
+    margin: 20px;
+   }
+   .control{
+    height: 100%;
+    width: 120vh;
+  margin: 60px;
+  color: black;
+  
+   }
+   .amain{
+    background-color: white;
+   }
+   .control h1{
+    font-size: 6rem;
+    text-align: center;
+    margin: 20px;
+   }
+   .control h3{
+    font-size: 6rem;
+    margin: 20px;
+   }
+  
+   .control li{
+    font-size: 4rem;
+    margin: 20px;
+   }
+   .control h4{
+    font-size: 5rem;
+    margin: 20px;
+   }
+ }
+
+
+
  /*-----------tqm---------*/
  
  .tqm{
@@ -791,15 +838,48 @@ margin: 60px;
   margin: 20px;
  }
 
- @media  screen  and (max-width: 800px) {
-  p{
-    font-size: 30px;
-   }
+ .tq a{
+  color: black;
+ }
 
-   .tqm{
+ @media  screen  and (max-width: 480px) {
+  .tq a{
+    color: white;
+  }
+  .tq .t{
+    color: black;
+    font-size: 60px;
+  }
+  .tqm{
     height: 100vh;
-    width: 190vh;
+    width: 120vh;
     margin: 60px;
+   }
+   .tqm h1{
+    font-size: 6rem;
+    margin: 20px;
+   }
+   .tqm p{
+    font-size: 4rem;
+    margin: 10px;
+    letter-spacing: 2px;
+   }
+   .tqm h3{
+    font-size: 5rem;
+    margin: 10px;
+   }
+   .tqm h4{
+    font-size: 4rem;
+    margin: 20px;
+    letter-spacing: 1.2px;
+   }
+   .tqm li{
+    font-size: 5rem;
+    margin: 10px;
+   }
+   .tqm h5{
+    font-size: 5rem;
+    margin: 20px;
    }
  }
 
@@ -837,6 +917,43 @@ margin: 60px;
   font-family:'Sofia Sans Extra Condensed', sans-serif ;
   margin: 10px;
  }
+ .glob a{
+  color: black;
+}
+ @media only screen and (max-width: 480px) {
+
+  .glob a{
+    font-size: 40px;
+    color: white;
+  }
+  .glob .active{
+    color: black;
+    font-size: 80px;
+  }
+
+  .glo h1{
+    font-size: 7rem;
+    margin-top: 60px;
+   }
+   .glo p{
+    font-size: 5rem;
+    margin: 20px;
+    letter-spacing: 2px;
+   }
+   .glo h3{
+    font-size: 6rem;
+    margin: 10px;
+   }
+   .glo h4{
+    font-size: 6rem;
+    margin: 20px;
+    letter-spacing: 1.2px;
+   }
+   .glo li{
+    font-size: 5rem;
+    margin: 10px;
+   }
+ }
  
  /*----goal---*/
 
@@ -861,7 +978,14 @@ margin: 60px;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   margin: 10px;
  }
+ .goa a{
+  color: black;
+}
  @media only screen and (max-width: 480px) {
+
+  .goa a{
+    font-size: 40px;
+  }
   .goal h1{
     font-size: 10rem;
     margin: 20px;
