@@ -104,9 +104,22 @@ transition: .5s;
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
+
+  .menu .in{
+    color: white;
+    display: block;
+    overflow: hidden;
+  }
+  .main{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+  }
+
 .menu{
   transform: translatey(1300%) translateX(-55%);
+  background-color: black;
 }
 ul{
   float: left;
@@ -115,6 +128,7 @@ ul{
   top: 0;
   right: 0;
   display: block;
+  color: black;
 }
 ul li a{
   text-decoration: none;
@@ -131,9 +145,19 @@ ul li a{
   height: 10vh;
   width: 10vh;
   display: flex;
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
-  border: 10px solid white;
+  border: 10px solid black;
+}
+
+.post h1{
+  color: black;
+  margin: 10px;
+  
+}
+
+.post li a{
+  color: black;
 }
 }
 
@@ -238,6 +262,26 @@ form{
     font-size: 13px;
     border: none;
     cursor: pointer;
+}
+
+@media only screen and (max-width:480px) {
+  .contact-box{
+    height: 100%;
+    width: 40vh;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.input-field{
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
 }
 
 /*-----Investment---*/
@@ -764,6 +808,7 @@ margin: 60px;
   .mena a{
     color: white;
     display: block;
+
   }
   .mena .c{
     color: black;
@@ -851,9 +896,10 @@ margin: 60px;
   color: black;
  }
 
- @media  screen  and (max-width: 480px) {
+ @media  screen  and (max-width: 800px) {
   .tq a{
     color: white;
+  
   }
   .tq .t{
     color: black;

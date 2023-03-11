@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>NetiZY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
@@ -36,25 +37,5 @@
             </form>
          </div>
         </div>
-
-        <script src=" https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail() {
-                Email.send({
-    Host : "smtp.gmail.com",
-    Username : "khatrisuraj088@gmail.com",
-    Password : "Surajkhatri@123",
-    To : 'surajkhatri9057773@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Content Form Enquary",
-    Body : "Name:" + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Subject: " + document.getElementById("subject").value
-    + "<br> Message: " + document.getElementById("message").value
-}).then(
-  message => alert("Message Sent Succesfully")
-);
-            }
-        </script>
 </body>
 </html>
