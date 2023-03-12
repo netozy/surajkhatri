@@ -112,16 +112,16 @@ transition: .5s;
     overflow: hidden;
   }
   .main{
-    background-color: black;
+    background-color: white;
     height:100vh;
-    width: 140vh;
+    width: auto;
     background-size: cover;
     background-position: center;
   }
 
 .menu{
   transform: translatey(1300%) translateX(-55%);
-  background-color: wheat;
+  background-color: white;
 }
 ul{
   float: left;
@@ -144,8 +144,8 @@ ul li a{
   transform: translateY(-220%);
 }
 .icon img{
-  height: 10vh;
-  width: 10vh;
+  height: 20vh;
+  width: 20vh;
   display: flex;
   background-color: white;
   border-radius: 50%;
@@ -153,15 +153,15 @@ ul li a{
 }
 
 .post h1{
-  color: black;
+  color:black;
   margin: 10px;
-  font-size: 2rem;
+  font-size: 4rem;
   
 }
 
 .post li a{
   color: black;
-  font-size: 1rem;
+  font-size: 25px;
 }
 
 }
@@ -1103,36 +1103,36 @@ margin: 60px;
 
  @media only screen and (max-width: 880px) {
 
-  .manage{
-    height: 100vh;
-    width: 100%;
-  }
-
 .manage p {
-  font-size: 20px;
+  font-size: 40px;
   margin: 20px;
 }
  .manage h1{
-  font-size: 40px;
+  font-size: 10rem;
   margin-top: 20px;
  }
  .manage li{
-  font-size: 40px;
+  font-size: 8rem;
 margin: 10px;
  }
  .manage h3{
-  font-size: 30px;
+  font-size: 7rem;
   margin: 10px;
  }
  .manage h4{
-  font-size: 40px;
+  font-size: 8rem;
   margin: 10px;
  }
 
  .sun a{
-  font-size: 20px;
-  color: black;
+  font-size: 30px;
+  color: blue;
  }
+
+ .sun ul{
+  transform: translatey(2500%)  translateX(-50%);
+ }
+ 
  
 }
 
