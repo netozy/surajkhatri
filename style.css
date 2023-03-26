@@ -6,7 +6,6 @@
 
 .main{
   width: 100%;
-  background: black;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -30,7 +29,7 @@
   display: flex;
   background-color: black;
   border-radius: 50%;
-  border: 10px solid white;
+  border: 10px solid black;
 }
 
 .menu{
@@ -41,9 +40,17 @@
 
 ul{
   float: left;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
+
+}
+footer{
+  background: black;
+  height: 40vh;
+  width: 200vh;
+  margin: 20px;
+  border-radius: 4rem;
 }
 
 ul li{
@@ -54,7 +61,7 @@ ul li{
 }
 ul li a{
   text-decoration: none;
-  color:wheat;
+  color: wheat;
   font-family: Arial;
   font-weight: bold;
   transition: 0.4s ease-in-out;
@@ -65,115 +72,154 @@ ul li a:hover{
 }
 
 .post{
-  display: block;
-  width: 200px;
-  height: 200px;
-  padding: 1em;
-  overflow-y: scroll;
-  text-align: start ;
-  padding-left: 70px;
-  transform: translateY(-140%);
+  width:100vh;
+  height: 10%;
+  background-color: white;
+}
+.post-img{
+  height: 10rem;
+  height: 10rem;
+  max-width: 35rem;
+  min-width: 35rem;
+
+}
+.post-img img{
+  height: 20vh;
+  width: 20vh;
+  padding-right: 15rem;
+}
+.blog-post{
+height: 10vh;
+width: 120vh;
+padding: 5rem;
+background-color: white;
+box-shadow: 0 1.4rem 8rem  rgba(0, 0, 0, 0.2);
+display: flex;
+text-align: center;
+margin: 10px;
 }
 
-.post h1{
-  color: white;
-  margin: 10px;
-  font-family: 'Times New Roman';
-  font-size: 40px;
-}
 
-.post li a{
+.post-title
+{
   font-size: 20px;
-  font-family: 'Times New Roman';
-  letter-spacing: 2px;
+  color: blue;
+  margin: 10px;
+  transform: translateY(-120% ) translateX(-70%);
+}
+.post-date{
+  font-size: 10px;
+  transform: translateY(-200% ) translateX(-70%);
+}
+p{
+  font-size: 10px;
+  margin-bottom: 3rem ;
+  transform: translateY(-50% ) translateX(-70%);
+}
+
+.posts{
+  font-size: 60px;
+  max-width: 40px;
+  text-align: center;
+  transform: translateX(800%);
+  margin: 80px;
+}
+.blog-post-btn{
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 10px;
   color: white;
-  line-height: 40px;
-  text-decoration: none;   
-
+  border-radius: .8rem;
+  text-decoration: none;
+  background: linear-gradient(to right, #c945c9 0%, #04a6bd 100%);
+  transform: translateY(-160% ) translateX(50%);
+}
+.blog-post-btn :hover{
+  background: linear-gradient(to right, #04a6bd 0%, #c945c9 100%);
 }
 
-.post li i{
-  color: wheat;
-  letter-spacing: 10px;
-}
-a .active,a :hover{
-transition: .5s;
+.pot{
+  height: 
+  100vh;
+  width: 100vh;
+  margin: 50px;
+  text-align: center;
 }
 
-#toggler, label{
-  display: none;
+.pot h3{
+  font-size: 60px;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
+.pot a{
+font-size: 30px;
+font-family:'Teko', sans-serif; 
+text-decoration: none;
+color: black;
+}
+.pot i{
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+}
+
+.rela{
+  height: 80vh;
+  width: 60vh;
+  padding: 5rem;
+  background-color: white;
+  box-shadow: 0 1.4rem 8rem  rgba(0, 0, 0, 0.2);
+  display: block;
+  text-align: center;
+  margin: 10px;
+  transform: translateX(50%);
+  }
+  .rela img{
+    height: 60vh;
+    width: 70vh;
+    transform: translateY(-10%);
+  }
+  .rela h4{
+    font-size: 30px;
+    transform: translateY(-200%);
+  }
+  .rela .rel{
+    font-size: 20px;
+    transform: translateY(-50%);
+  }
+  .rel a{
+    font-size: 25px;
+    color: blue;
+  }
+
+  .rela{
+
+    transform: translateX(30%);
+    }
+
 
 @media only screen and (max-width: 768px) {
-
-  .menu .in{
-    color: black;
-    display: block;
-    overflow: hidden;
+  footer{
+    height: 40vh;
+    width: 110vh;
+    margin: 20px;
+    border-radius: 4rem;
   }
-  .main{
+  .blog-post{
+    height: 10vh;
+    width: 90vh;
+    padding: 5rem;
     background-color: white;
-    height:100vh;
-    width: auto;
-    background-size: cover;
-    background-position: center;
-  }
-
-.menu{
-  transform: translatey(1300%) translateX(-55%);
-  
-}
-ul{
-  float: left;
-  justify-content: center;
-  text-align: center;
-  top: 0;
-  right: 0;
-  display: block;
-  color: black;
-}
-ul li a{
-  text-decoration: none;
-  color: black;
-  font-family: inherit;
-  font-weight: bold;
-  display: block;
-  font-size: 40px;
-  cursor: pointer;
-}
-.post{
-  display: block;
-  transform: translateY(-220%);
-  margin-top: 80px;
-    padding: 10px;
-}
-.icon img{
-  height: 130px;
-    width: 130px;
-  display: flex;
-  background-color: white;
-  border-radius: 50%;
-  border: 10px solid black;
-}
-
-.post h1{
-  color:black;
-  margin: 10px;
-  font-size: 3.5rem;
-  
-}
-
-.post li a{
-  color: black;
-  font-size: 2.3rem;
-}
-.post li{
-  color: white;
-}
-.post li i{
-  color: black;
-  font-size: 20px;
-}
+    box-shadow: 0 1.4rem 8rem  rgba(0, 0, 0, 0.2);
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    }
+    p{
+      font-size: 10px;
+      margin-bottom: 3rem ;
+    }
 }
 
 
@@ -183,33 +229,9 @@ ul li a{
 
 /*--------about us page ------*/
  
- .about{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+ 
 
- .about h1{
-    padding-left: 500px;
-    font-size: 60px;
- }
-
- .about h3{
-    padding-left: 500px;
-    font-size: 60px;
-    margin: 60px ;
- }
-
- .about h4{
-    padding-left: 500px;
-    font-size: 60px;
-    margin: 50px;
- }
- .about p{
-    padding-left: 50px;
-    font-size:25px;
- }
+ 
 
 
 /*--------descriptions page ------*/
@@ -869,9 +891,10 @@ margin: 60px;
 
  /*-----------tqm---------*/
  
+ 
  .tqm{
   height: 100vh;
-  width: 120vh;
+  width: 100%;
   margin: 60px;
  }
  .tqm h1{
@@ -882,6 +905,7 @@ margin: 60px;
  .tqm p{
   font-size: 30px;
   margin: 10px;
+  display: flex;
   font-family: 'Teko', sans-serif;
   letter-spacing: 2px;
  }
@@ -908,50 +932,10 @@ margin: 60px;
  }
 
  .tq a{
-  color: black;
+  color: wheat;
  }
 
- @media  screen  and (max-width: 800px) {
-  .tq a{
-    color: white;
-  
-  }
-  .tq .t{
-    color: black;
-    font-size: 60px;
-  }
-  .tqm{
-    height: 100vh;
-    width: 120vh;
-    margin: 60px;
-   }
-   .tqm h1{
-    font-size: 6rem;
-    margin: 20px;
-   }
-   .tqm p{
-    font-size: 4rem;
-    margin: 10px;
-    letter-spacing: 2px;
-   }
-   .tqm h3{
-    font-size: 5rem;
-    margin: 10px;
-   }
-   .tqm h4{
-    font-size: 4rem;
-    margin: 20px;
-    letter-spacing: 1.2px;
-   }
-   .tqm li{
-    font-size: 5rem;
-    margin: 10px;
-   }
-   .tqm h5{
-    font-size: 5rem;
-    margin: 20px;
-   }
- }
+ 
 
  /*-----globalization----*/
 
